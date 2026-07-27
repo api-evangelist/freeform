@@ -1,8 +1,24 @@
 aid: freeform
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freeform.png
 name: Freeform
-description: 'Freeform is a company surfaced as a portfolio company of threshold-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Freeform is an AI-native advanced manufacturing company founded by former SpaceX
+  engineers, building a network of autonomous factories that sense, learn, predict, and control
+  metal formation for high-performance metal additive manufacturing (metal 3D printing). Freeform
+  integrates hardware, sensors, controls, and software to move parts from prototype to full-scale
+  production for aerospace, defense, aviation, advanced energy, consumer electronics, and automotive
+  customers. It is a physical-AI / advanced-manufacturing business rather than a software API platform,
+  so as of this profile it exposes no public developer API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/freeform/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,20 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector: advanced-manufacturing
+x-has-developer-surface: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Infrastructure
+- Advanced Manufacturing
+- Metal 3D Printing
+- Additive Manufacturing
+- Physical AI
+- Autonomous Factories
+- Aerospace
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,23 @@ maintainers:
 common:
 - type: Website
   url: https://freeform.co/
+- type: About
+  url: https://freeform.co/company
+- type: Careers
+  url: https://freeform.co/careers
+- type: Support
+  name: Contact
+  url: https://freeform.co/contact
+- type: Newsroom
+  url: https://freeform.co/newsroom
+- type: TermsOfService
+  url: https://freeform.co/terms-of-use
+- type: PrivacyPolicy
+  url: https://freeform.co/privacy-policy
+- type: DomainSecurity
+  url: security/freeform-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
