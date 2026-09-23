@@ -1,0 +1,27 @@
+# Front Door AI Index — freeform — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: freeform
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: freeform.co
+  final_host: freeform.co
+  ownership: own
+  owner: freeform
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 14.42
+  words: 416
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 5
+    ML: 1
+    smart: 1
